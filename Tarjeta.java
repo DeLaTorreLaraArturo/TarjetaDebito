@@ -9,7 +9,10 @@ public class Tarjeta
     }
     public void depositar(double dinero)
     {
-        saldo = saldo + dinero;
+        if(dinero > 0)
+        {
+            saldo = saldo + dinero;
+        }
     }
     public double retirar(double dinero)
     {
