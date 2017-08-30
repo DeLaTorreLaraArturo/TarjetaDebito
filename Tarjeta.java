@@ -24,8 +24,8 @@ public class Tarjeta
         else
             return 0; 
     }
-    public void consultar()
+    public double consultar()
     {
-        System.out.println("Su saldo actual es de: " + saldo);
+        return saldo;
     }
 }
